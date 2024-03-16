@@ -1,0 +1,124 @@
+html,body{
+    margin: 0px;
+    /* height: 100%; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#name, #full{
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    position: absolute; 
+    width: auto;
+    font-weight: lighter;
+}
+#hi{
+    
+    font-size: 70px;
+}
+#name{
+    font-size: 35px;
+    top: 5%;
+    left: 20%;
+}
+#full{
+    font-size: 70px;
+    top: 18%;
+    left: 20%;
+    text-transform: uppercase;
+}
+
+.start{
+ background-image: url(../images/developer.png) ;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 100vh;
+ /* position: relative;
+ height: 750px; */
+}
+
+#work{
+    margin: 0%;
+    color: white;
+    font-weight: lighter;
+    text-transform: uppercase;
+    background-color: black;
+    font-size: 70px;
+    padding: 0px 0px 20px 260px;
+}
+#you{
+    font-size: 110px;
+}
+
+.boxsec{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px;
+    /* flex-wrap: wrap; */
+}
+
+.box1{
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px 0px rgb(186, 182, 182) ; /* offset-x, offset-y, blur-radius, spread-radius, and color, */
+    width: 320px;
+    height: 400px;
+}
+.box1:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+.box1 h2, p{
+    padding-left: 25px;
+}
+
+.box1 img{
+    /* width: 100px; */
+}
+
+.info{
+    display: flex;
+    color: white;
+    height: 300px;
+}
+
+.info h2{
+    font-size: 46px;
+    font-weight: lighter;
+    padding-left: 24px;  
+}
+
+.contact{
+    background-color: rgb(35, 89, 101);
+    padding-left: 40px;   
+}
+.about{
+    background-color: rgb(133, 39, 39);
+    padding-left: 40px;
+}
+
+footer p{
+    background-color: black;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.box1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+} */
